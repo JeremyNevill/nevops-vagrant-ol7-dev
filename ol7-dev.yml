@@ -1,0 +1,14 @@
+---
+- hosts: default
+  become: yes
+  tasks:
+    - name: git
+      yum:
+        name: git
+        state: latest
+    - name: vim
+      yum:
+        name: vim
+        state: latest
+
+
