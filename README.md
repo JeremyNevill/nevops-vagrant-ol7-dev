@@ -60,3 +60,5 @@ vagrant ssh-config
 * Copy the ssh config 
 * Add to the remote ssh section
 * Connect to the remote ssh connection and wait as the vagrant box is configured as a remote vs code destination
+* When vs code has installed the required server component on the vagrant box you should be able to open folders on the box
+* To clone git repos on the vagrant box add your relevant id_rsa key to ~/.ssh and chmod 600
