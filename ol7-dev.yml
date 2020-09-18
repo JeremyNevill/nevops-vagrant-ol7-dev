@@ -10,5 +10,15 @@
       yum:
         name: vim
         state: latest
-
-
+    - name: midnight commander
+      yum:
+        name: mc
+        state: latest
+    - name: glances
+      yum:
+        name: glances
+        state: latest
+    - name: docker
+      yum:
+        name: docker
+        state: latest

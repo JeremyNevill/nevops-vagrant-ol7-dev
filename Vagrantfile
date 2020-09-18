@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# See https://yum.oracle.com/boxes/ for Oracle Vagrant Boxes
 NAME = "nevops-vagrant-ol7-dev"
 VBOX_URL = "https://oracle.github.io/vagrant-projects/boxes"
 VBOX_NAME = "oraclelinux/7"
